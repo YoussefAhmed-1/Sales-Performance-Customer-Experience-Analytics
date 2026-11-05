@@ -45,7 +45,7 @@ The project uses four datasets to analyze sales operations, shipping costs, cust
 
 The following dashboard provides an overview of sales performance and customer-related insights, highlighting key metrics and trends to support business decision-making.
 
-![Sales Performance Dashboard](04_images/sales_dashboard.png)
+![Sales Performance Dashboard](Sales Performance Dashboard.png)
 
 ## Analysis Areas
 
