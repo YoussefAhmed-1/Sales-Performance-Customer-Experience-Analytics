@@ -19,13 +19,14 @@ The analysis aims to evaluate sales performance, understand customer loyalty, id
 
 ## Dataset Description
 
-The project uses three datasets:
+The project uses four datasets to analyze sales operations, shipping costs, customer behavior, and regional performance.
 
 | Dataset | Description |
 |---|---|
-| Orders | Contains order-level information, including customer details, sales, products, shipping modes, and order dates. |
-| Returns | Contains information about returned orders. |
-| Shipping Cost | Contains shipping-related cost information. |
+| Orders | Contains order details, customer information, product categories, sales, profit, discounts, and shipping information. |
+| Returns | Contains information about returned orders, supporting the analysis of product returns and customer experience. |
+| Shipping Cost | Contains shipping cost information for each state, enabling geographical shipping cost analysis. |
+| Regional Managers | Contains regional manager information and their corresponding regions, supporting regional performance analysis and management-level insights. |
 
 ## Tools & Techniques
 
