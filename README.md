@@ -45,7 +45,7 @@ The project uses four datasets to analyze sales operations, shipping costs, cust
 
 The following dashboard provides an overview of sales performance and customer-related insights, highlighting key metrics and trends to support business decision-making.
 
-![Sales Performance Dashboard](Sales Performance Dashboard.png)
+![Sales Performance Dashboard](Sales%20Performance%20Dashboard.png)
 
 ## Analysis Areas
 
@@ -93,26 +93,19 @@ Based on the shipping analysis:
 
 ## Project Structure
 
-```text
-sales-performance-customer-experience/
+Sales-Performance-Customer-Experience/
 │
-├── 01_data/
-│   ├── Orders.xlsx
-│   ├── Returns.xlsx
-│   ├── Shipping_Cost.xlsx
-│   └── Regional_Managers.xlsx
+├── Company X Data Department Report
 │
-├── 02_analysis/
-│   └── Sales_Performance_Analysis.xlsx
+├── LICENSE
 │
-├── 03_dashboard/
-│   └── Sales_Performance_Dashboard.xlsx
+├── README.md
 │
-├── 04_images/
-│   └── sales_dashboard.png
+├── Raw Data - Business Data Set.xlsx
 │
-└── README.md
-```
+├── Sales Performance Dashboard.png
+│
+└── Sales_Performance_Analytics.xlsx
 
 ### Folder Description
 
