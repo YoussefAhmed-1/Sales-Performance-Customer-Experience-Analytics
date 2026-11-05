@@ -30,7 +30,7 @@ The project uses four datasets to analyze sales operations, shipping costs, cust
 
 ## Tools & Techniques
 
-**Tool:**
+**Tools:**
 - Microsoft Excel
 
 **Techniques:**
@@ -40,6 +40,12 @@ The project uses four datasets to analyze sales operations, shipping costs, cust
 - Data Visualization using Charts
 - Exploratory Data Analysis (EDA)
 - Business Insights & Recommendations
+
+## Dashboard Preview
+
+The following dashboard provides an overview of sales performance and customer-related insights, highlighting key metrics and trends to support business decision-making.
+
+![Sales Performance Dashboard](04_images/sales_dashboard.png)
 
 ## Analysis Areas
 
@@ -70,7 +76,7 @@ The project uses four datasets to analyze sales operations, shipping costs, cust
 
 ## Key Insights
 
-**Shipping Mode Preferences**
+### Shipping Mode Preferences
 
 - Standard Class was the most frequently used shipping mode, accounting for **72.97% of total orders**.
 - First Class was the least frequently used shipping mode.
@@ -85,11 +91,44 @@ Based on the shipping analysis:
 - Reevaluate First Class pricing and its value proposition to understand its low adoption rate.
 - Use customer purchasing and shipping patterns to identify further opportunities for improving sales operations.
 
+## Project Structure
+
+```text
+sales-performance-customer-experience/
+│
+├── 01_data/
+│   ├── Orders.xlsx
+│   ├── Returns.xlsx
+│   ├── Shipping_Cost.xlsx
+│   └── Regional_Managers.xlsx
+│
+├── 02_analysis/
+│   └── Sales_Performance_Analysis.xlsx
+│
+├── 03_dashboard/
+│   └── Sales_Performance_Dashboard.xlsx
+│
+├── 04_images/
+│   └── sales_dashboard.png
+│
+└── README.md
+```
+
+### Folder Description
+
+| Folder | Description |
+|---|---|
+| `01_data/` | Original datasets used in the project. |
+| `02_analysis/` | Data cleaning, Pivot Tables, KPI calculations, and analytical work. |
+| `03_dashboard/` | Final Excel dashboard and visualizations. |
+| `04_images/` | Dashboard screenshots and project visuals used in the README. |
+
 ## Project Deliverables
 
 - Cleaned and prepared datasets.
 - Analytical Pivot Tables.
 - KPI calculations.
+- Sales performance dashboard.
 - Data visualization charts.
 - Business insights and actionable recommendations.
 
@@ -103,4 +142,8 @@ The ultimate goal of this project is to transform raw business data into meaning
 
 **Tool:** Microsoft Excel
 
-**Focus:** Sales Performance | Customer Loyalty | Customer Experience | Business Insights
+**Primary Audience:** Sales Department
+
+**Secondary Audience:** Customer Experience Team
+
+**Focus:** Sales Performance | Customer Loyalty | Customer Experience | Shipping Analysis | Business Insights
